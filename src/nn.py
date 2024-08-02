@@ -11,3 +11,4 @@ biases = [2, 3, 0.5]
 output = [sum(x * y for x, y in zip(weight, inputs)) + bias for weight, bias in zip(weights, biases)]
 for op in output:
     print(round(op, 3))
+#comment
