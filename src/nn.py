@@ -21,5 +21,7 @@ layer2 = Layer_Dense(5, 5)
 layer2.forward(layer1.output)
 layer3 = Layer_Dense(5, 5)
 layer3.forward(layer2.output)
-print(layer3.output)
+layer4 = Layer_Dense(5, 5)
+layer4.forward(layer3.output)
+print(layer4.output)
 
