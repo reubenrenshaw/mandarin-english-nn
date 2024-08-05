@@ -16,6 +16,7 @@ This repository contains code for a neural network designed to translate between
 mandarin-english-nn/
 ├── src/                    # Source code directory
 │   ├── nn.py               # Main script to run the neural network
+│   ├── cd.py               # Data generation script
 ├── .gitignore              # Git ignore file
 ├── requirements.txt        # Python package dependencies
 └── README.md               # Project documentation (this file)
