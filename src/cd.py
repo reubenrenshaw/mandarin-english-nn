@@ -14,11 +14,3 @@ def create_data(points, classes):
         y[ix] = class_number
     return X, y
 
-print('here')
-X, y = create_data(100, 3)
-
-plt.scatter(X[:, 0], X[:, 1])
-plt.show()
-
-plt.scatter(X[:, 0], X[:, 1], c = y, cmap = "brg")
-plt.show()
